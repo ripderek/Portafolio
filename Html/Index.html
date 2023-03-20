@@ -67,8 +67,8 @@
         <div class="container">
 
             <div class="row perfil">
-                <img id="nodo" class="nodo" src="../Img/nodo.png">
                 <div class="col-10 order-first col-sm-5 zz">
+                    <img id="nodo" class="nodo" src="../Img/nodo.png">
                     <h1>Raul Steven</h1>
                     <h1>Coello Castillo</h1>
                     <span>Desarrollador de software y diseñador gráfico</span>
@@ -645,8 +645,7 @@
     </div>
     <script>
         var square = document.getElementById('nodo')
-        TweenMax.to(square, 99  , { rotation: "360", ease: Linear.easeNone, repeat: -1 });
-
+        TweenMax.to(square, 99  , { rotation: "360", repeat: -1 });
         let layer = document.querySelector('.logo');
         let container = document.querySelector('.container');
         container.onmousemove = function (e) {
