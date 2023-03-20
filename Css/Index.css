@@ -6,6 +6,7 @@
 .bx {
     color: #f7f6f6;
     font-size: 48px;
+    width: 100%;
 }
 
 .container {
@@ -92,19 +93,25 @@ p {
 
 .btn-personal {
     background-color: #00fe00 !important;
-    width: 60%;
+    width: 70%;
     height: 50px;
     margin-bottom: 3%;
 }
 
 .btn-diseno {
     background-color: #96b4d0 !important;
-    width: 60%;
+    width: 70%;
     height: 50px;
 }
 
-btn-personal,
+.btn-personal
 h3 {
+    margin-top: 1%;
+    color: #000f24;
+}
+.btn-diseno
+h3 {
+    margin-top: 1%;
     color: #000f24;
 }
 
@@ -236,7 +243,7 @@ h2,
 
 .bx2 {
     color: #f7f6f6;
-    font-size: 38px;
+    font-size: 30px;
 }
 
 .contactofrm {
@@ -253,14 +260,20 @@ li {
 }
 
 .footer p {
-    font-weight: 200;
+    font-weight: 400;
     font-size: 18px;
     margin-top: 5%;
     color: #f7f6f6;
 }
 
 .footer li {
-    font-weight: 200;
+    font-weight: 400;
     font-size: 18px;
     color: #f7f6f6;
+}
+
+.divcont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
