@@ -9,6 +9,12 @@
     width: 100%;
 }
 
+.git {
+    color: #000f24;
+    font-size: 48px;
+    width: 100%;
+}
+
 .container {
     background-color: #000f24;
     margin-top: 3%;
@@ -16,7 +22,7 @@
 
 .nodo {
     top: 10%;
-    position:fixed;
+    position: fixed;
     width: 510px;
     opacity: 5%;
     z-index: -1;
@@ -41,13 +47,16 @@ h1 {
     max-width: 150%;
     min-width: 100%;
 }
+
 .containerima {
     opacity: 0;
-    transition:2s;
+    transition: 2s;
 }
-.containerima.active{
+
+.containerima.active {
     opacity: 1;
 }
+
 .pryec.active1 {
     opacity: 1;
 }
@@ -104,13 +113,12 @@ p {
     height: 50px;
 }
 
-.btn-personal
-h3 {
+.btn-personal h3 {
     margin-top: 1%;
     color: #000f24;
 }
-.btn-diseno
-h3 {
+
+.btn-diseno h3 {
     margin-top: 1%;
     color: #000f24;
 }
@@ -188,7 +196,7 @@ h2,
     margin-bottom: 5%;
     background-color: #00183a;
     opacity: 0;
-    transition:2s;
+    transition: 2s;
 }
 
 
@@ -196,6 +204,8 @@ h2,
     background-color: #00fe00 !important;
     width: 60%;
     height: 50px;
+    z-index: 3;
+
 }
 
 .masinfo h3 {
@@ -272,7 +282,7 @@ li {
     color: #f7f6f6;
 }
 
-.divcont{
+.divcont {
     display: flex;
     align-items: center;
     justify-content: center;
